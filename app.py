@@ -18,8 +18,8 @@ mydata = [go.Bar(x=x_list,
                 marker=dict(color=myfavoritecolor))]
 mylayout = go.Layout(
     title = mytitle,
-    xaxis = dict(title = 'Labels go here!'),
-    yaxis = dict(title = 'Numbers go here!'))
+    xaxis = dict(title = 'Animals'),
+    yaxis = dict(title = 'Votes'))
 myfigure = go.Figure(data=mydata, layout=mylayout)
 
 ########### Initiate the app
