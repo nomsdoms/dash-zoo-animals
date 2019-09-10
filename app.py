@@ -5,12 +5,12 @@ import plotly.graph_objs as go
 
 ########### Pick variables
 tabtitle='zoo'
-myheading = 'Animals in the Zoo'
-myfavoritecolor='#C74A2F' # More colors are here: https://htmlcolorcodes.com/
-x_list=['giraffes', 'elephants', 'monkeys']
-y_list=[5, 2, 7]
-mytitle='My favorite animals'
-githublink='https://github.com/austinlasseter/zoo-animals-dash'
+myheading = 'Coolest Zoo Animals'
+myfavoritecolor='#C62B0A' # More colors are here: https://htmlcolorcodes.com/
+x_list=['lions', 'pandas', 'snakes']
+y_list=[60, 39, 1]
+mytitle='Coolest Animals at the Zoo'
+githublink='https://github.com/nomsdoms/dash-zoo-animals'
 
 ########### Set up the chart
 mydata = [go.Bar(x=x_list,
